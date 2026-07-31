@@ -23,12 +23,12 @@ abes();
 abes();
 
 function greet(fname,lname){
-    cosnole.log("Hello",fname,lname);
+    console.log("Hello",fname,lname);
 }
 greet("Utkarsh" , "Dixit");
 greet("Waseen","Sir");
 
-consol.log("---Function name---");
+console.log("---Function name---");
 function add(x,y){
     return x+y;
 }
@@ -41,7 +41,7 @@ function fullName(fname="ABES",lname="Engineering College"){
     return fname+" "+lname;
 }
 console.log(fullName());
-consle.log(fullName("Utkarsh","Dixit"));
+console.log(fullName("Utkarsh","Dixit"));
 
 
 console.log("---Percentage---");
@@ -49,9 +49,16 @@ function totalMarks(math,english,science){
     return math + english+ science;
 
 }
-funtion percentage(total){
+function percentage(total){
     return(total/300)*100;
 }
 var total=totalMarks(80,75,90);
 console.log("Total Marks=" ,total);
-console.log("percentag=",percentage(total)+"%");
+console.log("percentage=",percentage(total)+"%");
+
+console.log("---whileloop---");
+    var a=1;
+    while(a<10){
+        console.log(a);
+        a++;
+    }
