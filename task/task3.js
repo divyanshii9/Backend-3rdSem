@@ -6,3 +6,4 @@ function calculatepercentage(maths,english,science){
 
 }
 calculatepercentage(99,98,90);
+

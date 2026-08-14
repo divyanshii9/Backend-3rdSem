@@ -16,13 +16,26 @@
 
 //Object
 
-const student={
-    id:17,
-    name:"divyanshi",
-    course:"node.js"
+// const student={
+//     id:17,
+//     name:"divyanshi",
+//     course:"node.js"
 
-};
-for(let i in student){
-    console.log(student[i]);
+// };
+// for(let i in student){
+//     console.log(student[i]);
+// }
+
+let s={
+    name:"divyanshi",
+    id:25,
+    age:17,
+    marks:99
 }
+console.log(s.name);
+s.course="B.tech";
+console.log(s);
+
+
+
 
