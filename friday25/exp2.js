@@ -12,7 +12,7 @@ fs.readFile('std.txt','utf8',(err,data)=>{
         console.log(`Unsuccesful${err}`)
     }
     else{
-        console.log(`File has been read${data}`)
+        console.log(`File has been read ${data}`)
     }
 })
 fs.appendFile(
@@ -28,7 +28,6 @@ fs.appendFile(
         }
 
     }
-    
 
 )
 fs.unlink('std.txt', (err) => {
